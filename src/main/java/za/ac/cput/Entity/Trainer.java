@@ -92,6 +92,11 @@ public class Trainer {
 
         //Copy method
         public Builder copy(Trainer trainer) {
+
+            return this;
+        }
+
+        public Builder setTrainerID(int trainerID) {
             return this;
         }
     }

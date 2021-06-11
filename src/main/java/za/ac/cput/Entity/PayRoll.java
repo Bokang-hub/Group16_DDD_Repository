@@ -38,17 +38,17 @@ private PayRoll (Builder builder)
     public static class Builder {
         private int payrollID, trainerID, hours;
 
-        public Builder setPayrollID(int payrollID) {
+        public Builder setPayrollID(String payrollID) {
             this.payrollID = payrollID;
             return this;
         }
 
-        public Builder setTrainerID(int trainerID) {
+        public Builder setTrainerID(String trainerID) {
             this.trainerID = trainerID;
             return this;
         }
 
-        public Builder setHours(int hours) {
+        public Builder setHours(String hours) {
             this.hours = hours;
             return this;
         }
