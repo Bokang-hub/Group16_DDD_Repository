@@ -3,7 +3,7 @@ package za.ac.cput.Factory;
 Factory for the Trainer.
 Author: Bokang Molaoa (218131097).
 Date: 09 June 2021
- */
+*/
 import za.ac.cput.Entity.Trainer;
 import za.ac.cput.Util.GenericHelper;
 
