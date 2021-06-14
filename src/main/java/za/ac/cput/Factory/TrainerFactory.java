@@ -12,14 +12,15 @@ public class TrainerFactory {
                                          String address, String emailAddress, String password) {
 
         int trainerID = GenericHelper.generateId();
-        Trainer trainer = new Trainer.Builder()
-                .setTrainerID(trainerID)
-                .setFirstName(firstName)
-                .setLastName(lastName)
-                .setAddress(address)
-                .setPhoneNo(phoneNo)
-                .setEmailAddress(emailAddress)
-                .setPassword(password)
+        Trainer.Builder builder = new Trainer.Builder();
+        builder.setTrainerID(trainerID);
+        builder.setFirstName(firstName);
+        builder.setLastName(lastName);
+        builder.setAddress(address);
+        builder.setPhoneNo(phoneNo);
+        builder.setEmailAddress(emailAddress);
+        builder.setPassword(password);
+        Trainer trainer = builder
                 .build();
 
         return trainer;
