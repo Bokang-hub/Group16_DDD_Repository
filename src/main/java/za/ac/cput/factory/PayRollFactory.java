@@ -10,6 +10,7 @@ import za.ac.cput.util.GenericHelper;
 public class PayRollFactory {
     public static PayRoll createPayRoll (String payrollID, String trainerID, String hours) {
         int payRollID= GenericHelper.generateId();
+
         PayRoll payRoll= new PayRoll.Builder()
                 .setPayrollID(payrollID)
                 .setTrainerID(trainerID)
@@ -19,3 +20,4 @@ public class PayRollFactory {
         return payRoll;
     }
 }
+

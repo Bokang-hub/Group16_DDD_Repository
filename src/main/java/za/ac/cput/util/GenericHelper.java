@@ -1,12 +1,11 @@
-package za.ac.cput.util;
-
-import java.util.UUID;
-
+package za.ac.cput.Util;
 /* GenericHelper.java
 Makes random number for ID
-Author: Akhona Mngqibisa (217302394)
-Date: 9 June 2021
+Author: Bokang Molaoa (218131097)
+Date: 09 June 2021
 */
+import java.util.UUID;
+
 public class GenericHelper
 {
     public static int generateId()

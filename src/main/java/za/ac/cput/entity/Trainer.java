@@ -70,6 +70,11 @@ public class Trainer {
         private int trainerID;
 
         //Set Trainer ID
+        public Builder setTrainerID() {
+            return setTrainerID();
+        }
+
+        //Set Trainer ID
         public Builder setTrainerID(int trainerID) {
             this.trainerID=trainerID;
             return this;
@@ -120,8 +125,8 @@ public class Trainer {
 
         //Copy method
         public Builder copy(Trainer trainer) {
+
             return this;
         }
     }
-
 }
