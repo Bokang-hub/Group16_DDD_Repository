@@ -20,6 +20,38 @@ public class Trainer {
         this.emailAddress = builder.emailAddress;
         this.password = builder.password;
     }
+    public int getTrainerID() {
+        return trainerID;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public String getAddress() {
+
+        return address;
+    }
+
+    public String getPhoneNo() {
+
+        return phoneNo;
+    }
+
+    public String getEmailAddress() {
+
+        return emailAddress;
+    }
+
+    public String getPassword() {
+
+        return password;
+    }
+
     @Override
     public String toString() {
         return "Trainer{" +
@@ -42,6 +74,12 @@ public class Trainer {
             this.trainerID=trainerID;
             return this;
         }
+
+        public Builder getTrainerID(int trainerID) {
+            this.trainerID=trainerID;
+            return this;
+        }
+
         //Set First name
         public Builder setFirstName(String firstName) {
             this.firstName= firstName;
