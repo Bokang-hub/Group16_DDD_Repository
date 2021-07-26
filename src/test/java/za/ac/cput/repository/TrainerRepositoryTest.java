@@ -1,5 +1,5 @@
 /* TrainerRepositoryTest.java
- * Class Repository Test for Trainer
+ * Class Repository Test for Trainer.
  * Author: Bokang Molaoa [218131097]
  * Date: 24 July 2021
  */

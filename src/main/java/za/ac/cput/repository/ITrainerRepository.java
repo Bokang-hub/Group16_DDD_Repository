@@ -1,5 +1,5 @@
 /* ITrainerRepository.java
- * Interface Repository for Trainer entity
+ * Interface Repository for Trainer entity.
  * Author: Bokang Molaoa [218131097]
  * Date: 24 July 2021
  */

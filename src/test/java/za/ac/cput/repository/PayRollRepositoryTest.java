@@ -1,7 +1,7 @@
 /* PayRollRepositoryTest.java
  * Class Repository Test for Payroll.
  * Author: Bokang Molaoa [218131097]
- * Date: 24 July 2021
+ * Date: 24 July 2021.
  */
 package za.ac.cput.repository;
 import org.junit.jupiter.api.MethodOrderer;

@@ -1,7 +1,7 @@
 /* TrainerRepository.java
  * Class Repository for Trainer Repository.
  * Author: Bokang Molaoa [218131097]
- * Date: 24 July 2021
+ * Date: 24 July 2021.
  */
 
 package za.ac.cput.repository;
